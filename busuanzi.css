@@ -209,7 +209,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
 .cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
 .cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
-.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-string { color: #d11a2d; }
 .cm-s-inner .cm-property { color: rgb(0, 0, 0); }
 .cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
 .cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
