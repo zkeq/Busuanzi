@@ -5,7 +5,7 @@ body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; lin
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
-.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+.in-text-selection, ::selection { text-shadow: none; background: #1dbbc9; color: var(--select-text-font-color); }
 #write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
@@ -209,7 +209,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
 .cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
 .cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
-.cm-s-inner .cm-string { color: #d11a2d; }
+.cm-s-inner .cm-string { color: #ecc48d; }
 .cm-s-inner .cm-property { color: rgb(0, 0, 0); }
 .cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
 .cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
@@ -218,8 +218,8 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
 .cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
 .cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
-.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
-.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-tag { color: #0eb0c9; }
+.cm-s-inner .cm-attribute { color: #7ed9c9; }
 .cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
 .cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
 .cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
@@ -276,7 +276,14 @@ span.cm-strikethrough { text-decoration: line-through; }
   .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
 }
 
-
+@font-face{
+  font-family: 'Hack';
+  src: local('Hack'),
+  url('https://s-gz-2220-icodeq.oss.dogecdn.com/hack-regular-webfont.woff2') format('truetype');
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
 
 
 /* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
@@ -2016,10 +2023,11 @@ var {
 
 #write pre.md-meta-block,
 #write pre.md-fences {
-  font: var(--font-code);
+  font-family: "Hack";
   border-radius: 5px;
-  background: var(--bg-code-block);
-  color: var(--color-code);
+  background: #011627;
+  color: #fff;
+  font-weight: 200;
 }
 
 pre.md-meta-block {
