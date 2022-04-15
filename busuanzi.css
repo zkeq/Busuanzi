@@ -285,6 +285,23 @@ span.cm-strikethrough { text-decoration: line-through; }
   font-style: normal;
 }
 
+@font-face{
+  font-family: 'LXGWWenKai';
+  src: local('LXGWWenKai'),
+  url('https://npm.elemecdn.com/zkeq-font@1.1.0/LXGWWenKai-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'HarmonyOS';
+  src: local('HarmonyOS'),
+  url('https://npm.elemecdn.com/zkeq-font@1.6.0/HarmonyOS.ttf') format('truetype');
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
 
 /* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 html {
@@ -1629,6 +1646,7 @@ content {
   color: var(--color-title-h2);
   font: var(--font-title-h2);
   margin: var(--margin-h2);
+  font-family: "SimSun";
 }
 
 #write h3 {
@@ -1636,6 +1654,7 @@ content {
   color: var(--color-title-h3);
   font: var(--font-title-h3);
   margin: var(--margin-h3);
+  font-family: "SimSun";
 }
 
 #write h4 {
@@ -2602,7 +2621,7 @@ ol ol ol {
 
 ol li,
 ul ol li {
-  font-family: var(--ol-font-cn);
+  /* font-family: var(--ol-font-cn); */
   font-size: var(--ol-size);
 }
 
