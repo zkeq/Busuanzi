@@ -294,6 +294,15 @@ span.cm-strikethrough { text-decoration: line-through; }
   font-style: normal;
 }
 
+@font-face{
+  font-family: 'ZenAntique';
+  src: local('ZenAntique'),
+  url('https://npm.elemecdn.com/zkeq-font@1.7.0/ZenAntique-Regular.ttf') format('truetype');
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
 /* @font-face{
   font-family: 'HarmonyOS';
   src: local('HarmonyOS'),
@@ -1646,7 +1655,7 @@ content {
   color: var(--color-title-h2);
   font: var(--font-title-h2);
   margin: var(--margin-h2);
-  font-family: "SimSun";
+  font-family: "ZenAntique";
 }
 
 #write h3 {
@@ -1654,7 +1663,7 @@ content {
   color: var(--color-title-h3);
   font: var(--font-title-h3);
   margin: var(--margin-h3);
-  font-family: "SimSun";
+  font-family: "ZenAntique";
 }
 
 #write h4 {
