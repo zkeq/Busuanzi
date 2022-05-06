@@ -1,4 +1,4 @@
-![Busuanzi](https://socialify.git.ci/zkeq/Busuanzi/image?description=1&descriptionEditable=Busuanzi_backend_self%20Office%20WEBSITE%20.&font=Bitter&language=1&logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14985020&name=1&owner=1&pattern=Plus&stargazers=1&theme=Light)
+[![Busuanzi](https://socialify.git.ci/zkeq/Busuanzi/image?description=1&descriptionEditable=Busuanzi_backend_self%20Office%20WEBSITE%20.&font=Bitter&language=1&logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14985020&name=1&owner=1&pattern=Plus&stargazers=1&theme=Light)](https://busuanzi.icodeq.com)
 
 > 🚀 自建 [不蒜子](https://busuanzi.ibruce.info/) API
 
