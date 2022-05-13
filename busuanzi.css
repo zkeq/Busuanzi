@@ -2765,7 +2765,7 @@ del,
 s {
   color: var(--color-strike);
   background: var(--bg-strike);
-  display: none;
+  /* display: none; */
 }
 
 mark {
