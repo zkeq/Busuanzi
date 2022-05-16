@@ -21,7 +21,7 @@
 ### 用法：
 
 ```html
-<script async src="https://busuanzi.icodeq.com/busuanzi.pure.mini.js"></script>
+<script async src="https://dev.busuanzi.icodeq.com/busuanzi.min.js"></script>
 
 本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次
 
