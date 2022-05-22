@@ -8,7 +8,7 @@
 2. 故尝试对其后端进行了仿造，达到了相同的效果，并且在首次添加域名时，会自动从 busuanzi 官网同步数据
 3. 本项目使用 `Redis` 做数据库，若您的网站一个月内没有访问量，数据会自动清除。
 4. 即下一次再使用本工具时将再次从 `Busuanzi ` 官网 同步数据
-5. ~~本项目托管于 replit.com~~ ，开源地址： [zkeq/Busuanzi_backend_self](https://github.com/zkeq/Busuanzi_backend_self) [ MIT License ]
+5. ~~本项目托管于 replit.com~~ ，开源地址： [zkeq/Busuanzi_backend_self](https://github.com/zkeq/Busuanzi_backend_self) [ AGPL-3.0 license ]
 6. `replit` 存在不定期回档问题，现已将 `API` 部署至私有服务器，保证数据的完整性。
 
 ### 使用：
