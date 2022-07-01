@@ -1,11 +1,7 @@
 {
     "rewrites": [
         {
-            "source": "/busuanzi.pure.js",
-            "destination": "/busuanzi.pure.mini.js"
-        },
-        {
-            "source": "/busuanzi.js",
+            "source": "/(.*).js",
             "destination": "/busuanzi.pure.mini.js"
         },
         {
