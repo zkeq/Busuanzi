@@ -1614,7 +1614,7 @@ content {
 #write {
   background: var(--bg-write);
   max-width: 914px;
-  min-width: 400px;
+  /* min-width: 400px; */
   -webkit-font-smoothing: antialiased;
   min-height: calc(100vh - 6em);
   margin: 2rem auto;
