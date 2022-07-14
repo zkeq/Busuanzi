@@ -15,7 +15,7 @@ body.busuanzi-backend { padding-left: 30px; padding-right: 30px; }
 .busuanzi-backend .footnote-line, .busuanzi-backend li, .busuanzi-backend p { white-space: pre-wrap; }
 .busuanzi-backend .task-list-item input { pointer-events: none; }
 @media screen and (max-width: 500px) {
-  body.busuanzi-backend { padding-left: 0px; padding-right: 0px; }
+  body.busuanzi-backend { padding-left: 0px; padding-right: 0px; margin: 0rem auto;}
   #write { padding-left: 20px; padding-right: 20px; }
   .CodeMirror-sizer { margin-left: 0px !important; }
   .CodeMirror-gutters { display: none !important; }
@@ -1617,7 +1617,7 @@ content {
   /* min-width: 400px; */
   -webkit-font-smoothing: antialiased;
   min-height: calc(100vh - 6em);
-  margin: 2rem auto;
+  /* margin: 2rem auto; */
   padding: 2rem;
 }
 
@@ -2334,7 +2334,7 @@ body {
   background: var(--bg-write);
   -webkit-font-smoothing: antialiased;
   margin: 2rem auto;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 h1 *,
