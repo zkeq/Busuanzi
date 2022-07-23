@@ -279,7 +279,7 @@ span.cm-strikethrough { text-decoration: line-through; }
 @font-face{
   font-family: 'Hack';
   src: local('Hack'),
-  url('https://s-gz-2220-icodeq.oss.dogecdn.com/hack-regular-webfont.woff2') format('truetype');
+  url('https://media.onmicrosoft.cn/Busuanzi/hack-regular-webfont.woff2') format('truetype');
   font-display: swap;
   font-weight: bold;
   font-style: normal;
@@ -288,7 +288,7 @@ span.cm-strikethrough { text-decoration: line-through; }
 @font-face{
   font-family: 'LXGWWenKai';
   src: local('LXGWWenKai'),
-  url('https://s-gz-2220-icodeq.oss.dogecdn.com/Busuanzi/LXGWWenKai-Regular.ttf') format('truetype');
+  url('https://media.onmicrosoft.cn/Busuanzi/LXGWWenKai-Regular.ttf') format('truetype');
   font-display: swap;
   font-weight: bold;
   font-style: normal;
@@ -297,7 +297,7 @@ span.cm-strikethrough { text-decoration: line-through; }
 @font-face{
   font-family: 'ZenAntique';
   src: local('ZenAntique'),
-  url('https://s-gz-2220-icodeq.oss.dogecdn.com/Busuanzi/ZenAntique-Regular.ttf') format('truetype');
+  url('https://media.onmicrosoft.cn/Busuanzi/ZenAntique-Regular.ttf') format('truetype');
   font-display: swap;
   font-weight: bold;
   font-style: normal;
