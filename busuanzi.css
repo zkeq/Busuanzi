@@ -2836,8 +2836,6 @@ kbd {
 }
 
 details {
-  -webkit-box-shadow: 5px 5px 5px 0px #ffe5e5;
-  box-shadow: 5px 5px 5px 0px #ffe5e5;
   transition: all 0.2s ease;
   border: 1px solid transparent;
   border-radius: 4px;
